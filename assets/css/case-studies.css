@@ -1,0 +1,63 @@
+.results-section {
+  background-color: var(--color-light-gray);
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.result-item {
+  text-align: center;
+  cursor: pointer;
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+
+.result-item h3 {
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+.solution-section {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.solution-process {
+  background-color: var(--color-black);
+}
+
+.solution-process h2,
+.solution-process h3 {
+  color: var(--color-white);
+}
+.solution-process p {
+  color: var(--color-mid-gray);
+}
+
+.other-case-studies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.other-case-study-card {
+  flex: 1;
+  background: var(--color-light-gray);
+  border-radius: 12px;
+  padding: 20px;
+  transition: var(--transition);
+}
+
+.other-case-study-card:hover {
+  transform: translateY(-5px);
+}
+.other-case-study-card .learn-more {
+  color: var(--color-primary);
+}
+
+.other-case-study-card:hover .learn-more i {
+  transform: translateX(5px);
+}
